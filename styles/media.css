@@ -1,0 +1,146 @@
+@media(max-width:1400px) {}
+
+@media(max-width:1200px) {
+    .swiper {
+        width: 900px;
+        height: 700px;
+    }
+
+    .swiper-slide img {
+        object-fit: fill;
+        width: 1000px;
+        height: 100%;
+    }
+
+    .stafff__item {
+        width: 400px;
+    }
+}
+
+@media(max-width:992px) {
+    .header__bg {
+        object-fit: fill;
+    }
+
+    .header__title {
+        font-size: 35px;
+    }
+
+    .header__title-ff {
+        font-size: 70px;
+    }
+
+    .stafff__item img {
+        height: 400px;
+    }
+
+    .swiper {
+        width: 750px;
+        height: 700px;
+    }
+
+    .stafff__item {
+        width: 350px;
+    }
+}
+
+@media(max-width:768px) {
+    .swiper {
+        width: 550px;
+        height: 400px;
+    }
+
+    .swiper-slide img {
+        object-fit: fill;
+        width: 100%;
+        height: 100%;
+    }
+
+    .staff__wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .stafff__item {
+        padding-bottom: 20px;
+    }
+
+    .header__title-ff {
+        font-size: 50px;
+    }
+
+    .header__title {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:576px) {
+    .header__title-ff {
+        font-size: 40px;
+    }
+
+    .header__title {
+        font-size: 25px;
+    }
+
+    .about__item-title,
+    .swiper__wrapper-title {
+        font-size: 35px;
+    }
+
+    .about__item-desc {
+        font-size: 16px;
+    }
+
+    .swiper {
+        width: 400px;
+        height: 350px;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
+    }
+
+}
+
+@media (max-width:400px) {
+    .header__title-ff {
+        font-size: 25px;
+    }
+
+    .header__title {
+        font-size: 15px;
+    }
+
+    .header__bg {
+        object-fit: cover;
+    }
+
+    .about__item-desc {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .about__item-title,
+    .swiper__wrapper-title {
+        font-size: 25px;
+    }
+
+    .swiper {
+        width: 300px;
+        height: 250px;
+    }
+
+    .stafff__item {
+        width: 100%;
+    }
+
+    .swiper__wrapper-desc {
+        font-size: 10px;
+    }
+
+    .stafff__item img {
+        height: 300px;
+    }
+}
